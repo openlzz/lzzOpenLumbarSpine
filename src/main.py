@@ -30,7 +30,7 @@ def run(dicom_path):
     
     # 使用 YOLO 模型进行检测
     results = model(img)
-    
+     
     # 展示检测结果
     for result in results:
         boxes = result.boxes  # Boxes object for bounding box outputs
